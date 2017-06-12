@@ -12,6 +12,7 @@ import Form from './Form'
 import ProjectForm from './ProjectForm'
 import Projects from './Projects'
 import AddTask from './addTask'
+import LoginForm from './LoginForm'
 
 class App extends React.Component {
   constructor(props) {
@@ -33,6 +34,7 @@ class App extends React.Component {
         <Route exact={true} path='/projects/:id' component={TasksContainer} />
         <Route exact={true} path='/addTask' component={AddTask} />
         <Route exact={true} path='/addProject' component={ProjectForm} />
+        <Route exact={true} path='/login' component={LoginForm} />
         <Footer />
        </div>
         </Router>
