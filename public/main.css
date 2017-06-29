@@ -54,7 +54,9 @@ li {
   background-color: black;
   padding: 0px;
   margin: 0px;
+  margin-bottom: 50px;
   font-family: 'Pacifico';
+  position: relative;
 }
 
 .add-task {
@@ -148,7 +150,8 @@ hr {
   background-color: black;
 }
 .project-name {
-	color: #000000;	border-bottom: 1px solid #d3ab55;
+	color:  #d3ab55;
+  border-bottom: 1px solid #d3ab55;
 	display: inline-block;
 	line-height: 36px;
 	text-decoration: none;
@@ -188,8 +191,16 @@ a:hover {
 }
 .columnName {
   color: black;
-}
+  background-color: rgba(255,255,255,0.2);
 
+}
+.newtask {
+  color: #000000;
+  background: url('http://jaimacompany.com/wp-content/uploads/2014/12/jb50712-768x1024.gif');
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
 input[type="text"]
 {
     background: transparent;
