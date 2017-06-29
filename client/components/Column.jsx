@@ -16,7 +16,7 @@ const Column = (props) => {
         {matchColumn(props.column.column_value, props.tasks).map((task, i) =>
           <Task task={task} key={i} selected={task.id == props.selectedTask}/>
         )}
-        <button><Link to={'/addTask'}>Add Task</Link></button>
+        <button><Link to={'/addTask'} className="addTaskButton">Add Task</Link></button>
       </ul>
     </div>
   )

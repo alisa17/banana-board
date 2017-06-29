@@ -7,7 +7,7 @@ import {updateStatus} from '../actions'
 const Task = ({task, dispatch, selected}) => (
   <div className='single-task' onClick={(e) => dispatch(selectTaskAction(task))}>
     <li>
-      <h5>{task.taskName}
+      <h5><span className="taskName">{task.taskName}</span>
         <span className="userName">{task.userName}</span>
       </h5>
     </li>

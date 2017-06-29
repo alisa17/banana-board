@@ -28,7 +28,7 @@ class ProjectForm extends React.Component {
        <label>Column Value
        <input type="text" name="column_value" value={this.state.column_value} onChange={this.handleChange.bind(this)}/></label>
        <br/>
-       <button onClick={() => this.props.dispatch(actions.addTask(this.state))}>Create Ticket</button>
+       <button onClick={() => this.props.dispatch(actions.addProject(this.state))}>Create Board</button>
      </div>
 
    )
