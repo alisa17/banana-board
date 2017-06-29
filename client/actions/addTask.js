@@ -17,6 +17,7 @@ export const addTask = (task) => {
         if (err) console.log(err);
         else console.log({res: res.body});
         dispatch(addTaskAction(res.body))
+        window.location.assign(`http://localhost:3000/#/projects/${task.project_id}`)
       })
   }
 }

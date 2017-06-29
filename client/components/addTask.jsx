@@ -55,7 +55,7 @@ class AddTask extends React.Component {
           <input name="userName" onChange={(e) => this.inputTaskDetails(e)}></input>
         </label>
         {this.renderColumnOptions(this.state.columns)}
-        <input type="submit" value="Birth Task"/>
+        <input type="submit" value="Add Task"/>
       </form>
     )
   }
